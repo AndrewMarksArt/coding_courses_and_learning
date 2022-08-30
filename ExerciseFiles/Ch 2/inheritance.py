@@ -30,6 +30,7 @@ class Newspaper(Periodical):
     def __init__(self, title, publisher, price, period):
         super().__init__(title, price, period, publisher)
 
+
 b1 = Book("Brave New World", "Aldous Huxley", 311, 29.0)
 m1 = Magazine("Scientific American", "Spring Nature", 5.99, "Monthly")
 n1 = Newspaper("NY Times", "New York Times Company", 6.0, "Daily")
