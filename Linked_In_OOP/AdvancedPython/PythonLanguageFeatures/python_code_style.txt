@@ -1,0 +1,13 @@
+Python Code Structure and Format (PEP8 guide)
+- import statements go at the top and each have their own line
+- indent with spaces not tabs and use 4 spaces for each indentation level
+- limit lines to 79 characters and 72 for docstrings and commments
+- seperate functions and classes by two blank lines
+- within classes, seperate methods by one blank line
+- No spaces around function calls, indexes, keyword arguments
+
+Python Whitespace Conventions (some exampels)
+- DO                         - DONT
+* spam(ham[1], {eggs: 2})    * spam(ham[ 1 ], { eggs: 2 })
+* fn(arg)                    * fn (arg)
+* i = i + 1                  * i=i+1
