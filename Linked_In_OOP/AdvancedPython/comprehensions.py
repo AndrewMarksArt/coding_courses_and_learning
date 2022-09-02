@@ -8,6 +8,19 @@ def main():
     evens = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
     odds = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
 
+    # dict comprehensions
+    ctemps = [0, 12, 34, 100]
+    tempDict = {t: (t*9/5) + 32 for t in ctemps if t < 100}
+    print(tempDict)
+    print(tempDict[12])
+
+    # merge 2 dicts with comprehension
+    t1 = {"jones": 24, "jameson": 18, "smith": 58, "burns": 7}
+    t2 = {"white": 12, "macke": 88, "perce": 4}
+
+    newTeam = {k:v for team in (t1, t2) for k,v in team.items()}
+    print(newTeam)
+
     # TODO: perform a mapping and filter funcs
     # square elements in evens if grater then 4 but less than 16
     evenSquare = list(
