@@ -21,6 +21,13 @@ def main():
     newTeam = {k:v for team in (t1, t2) for k,v in team.items()}
     print(newTeam)
 
+    # look at set comprehension
+    ctemps = [5, 10, 12, 14, 10, 23, 41, 30, 12, 24, 12, 18, 29]
+    ftemps1 = [(t*9/5) + 32 for t in ctemps]
+    ftemps2 = {(t*9/5) + 32 for t in ctemps}
+    print(ftemps1)
+    print(ftemps2)
+
     # TODO: perform a mapping and filter funcs
     # square elements in evens if grater then 4 but less than 16
     evenSquare = list(
