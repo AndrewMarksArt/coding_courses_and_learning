@@ -1,0 +1,9 @@
+User:andrew 09/01/2022 05:53:27 PM: DEBUG: main Line:39 This is a debug message
+User:andrew 09/01/2022 05:53:27 PM: INFO: main Line:40 This is an info message
+User:andrew 09/01/2022 05:53:27 PM: WARNING: main Line:41 This is a warning message
+User:andrew 09/01/2022 05:53:27 PM: ERROR: main Line:42 This is a error message
+User:andrew 09/01/2022 05:53:27 PM: CRITICAL: main Line:43 This is a critical message
+User:andrew 09/01/2022 05:53:27 PM: INFO: main Line:46 here is a string variable and an int:
+User:andrew 09/01/2022 05:53:27 PM: INFO: main Line:49 This is an info-level log message
+User:andrew 09/01/2022 05:53:27 PM: WARNING: main Line:50 This is a warning-level message
+User:andrew 09/01/2022 05:53:27 PM: DEBUG: anotherFunc Line:24 This is a debug-level message
