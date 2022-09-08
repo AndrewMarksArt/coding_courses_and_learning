@@ -12,3 +12,9 @@ Taught by Samer Buna
 * Rendering on the Server
 * Routing on Client and Server
 * Working with MongoDB
+
+### Setup dev environment for Node and React
+https://www.jscomplete.com/reactful
+
+### Course GitHub
+https://www.github.com/jscomplete/learn-fullstack-javascript
