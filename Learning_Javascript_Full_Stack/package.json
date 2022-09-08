@@ -4,7 +4,9 @@
   "description": "project for hands on learning of JavaScript, Node, React, and MongoDB",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd"
   },
   "author": "Ragnar",
   "license": "ISC",
